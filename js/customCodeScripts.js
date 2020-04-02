@@ -58,4 +58,24 @@ alert(add(number1, number2));
 alert(add(10,5))
 console.log(alert);
 
+// Write a function that converts temperature between celsius and fahrenheit.
+
+var celsius = function(number3) {
+    return (number3 / 5) * 9 + 32;
+};
+
+var fahrenheit = function(number4) {
+    return (number3 - 32) * 5 / 9;
+};
+
+var number3 = parseInt(prompt('Enter a temperature in fahrenheit to convert to Celsius'))
+var celsiusResult = celsius(number3)
+alert(celsiusResult)
+console.log(number3);
+
+var number4 = parseInt(prompt('Enter a temperature in celsius to convert to fahrenheit')) 
+var fahrenheitResult = fahrenheit(number4)
+alert(fahrenheitResult)
+console.log(number4);
+
 
