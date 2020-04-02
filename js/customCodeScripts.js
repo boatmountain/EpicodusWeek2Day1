@@ -42,8 +42,20 @@ var food = prompt('What is your preferred food')
 alert(name + " is " + age + " years old and likes " + food)
 
 // Defining an addition function
+// Gathering User Input
+// Parsing Integers
 var add = function(number1, number2) {
-    return number2 + number2;
+    return number1 + number2;
 }
-alert(add(10,5);)
+var number1 = parseInt(prompt("Enter a number"))
+console.log(number1);
+var number2 = parseInt(prompt('Enter another number'))
+console.log(number2);
+
+alert(add(number1, number2));
+
+
+alert(add(10,5))
 console.log(alert);
+
+
