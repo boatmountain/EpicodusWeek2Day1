@@ -78,4 +78,7 @@ var fahrenheitResult = fahrenheit(number4)
 alert(fahrenheitResult)
 console.log(number4);
 
+// Write functions to be used by a cooking app that convert between units. For example, a function that converts gallons to liters. Create a project for this like you did for the calculator, so that you can return and build a front-end for this later.
+
+
 
